@@ -1,3 +1,3 @@
-# My Awesome Book
+# Linux 运维课程笔记
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+此文档是学习Linux运维时的一些学习笔记
