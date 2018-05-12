@@ -35,7 +35,9 @@ fs.writeFile('./SUMMARY.md', summary, err => {
 
 // 判断给定的路径/文件是否存在
 function fileExist(path) {
-    let fs = fs | require("fs")
+    if(!fs) {
+        throw new Error("fs 模块未加载");
+    }
     try {
         fs.accessSync(path);
         return true;
